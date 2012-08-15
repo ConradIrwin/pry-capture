@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.email         = ['conrad.irwin@gmail.com']
   s.authors       = ['Conrad Irwin']
   s.files         = `git ls-files`.split("\n")
-  s.load_paths    = ['lib']
+  s.require_paths = ['lib']
 
   s.add_dependency 'pry-rescue'
 end
